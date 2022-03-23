@@ -7,11 +7,13 @@ import Project from './components/Project';
 
 
 function App() {
+
+  
   return (
     <div className="">
         <Nav></Nav>
         <Header></Header>
-        <Project></Project>
+        <Project title='roger'></Project>
         <Footer></Footer>
 
     </div>

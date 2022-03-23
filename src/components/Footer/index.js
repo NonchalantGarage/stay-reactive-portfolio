@@ -1,12 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function Footer () {
-    return(
-        <div>
-            
-        </div>
-    )
-
+function Footer() {
+  return <div>Developed by Curtis Hong</div>;
 }
 
-export default Footer
+export default Footer;
