@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/stay-reactive-portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/stay-reactive-portfolio/static/js/main.6b901006.js",
+    "static/js/787.8329be64.chunk.js": "/stay-reactive-portfolio/static/js/787.8329be64.chunk.js",
+    "static/media/logo.svg": "/stay-reactive-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/stay-reactive-portfolio/index.html",
+    "main.073c9b0a.css.map": "/stay-reactive-portfolio/static/css/main.073c9b0a.css.map",
+    "main.6b901006.js.map": "/stay-reactive-portfolio/static/js/main.6b901006.js.map",
+    "787.8329be64.chunk.js.map": "/stay-reactive-portfolio/static/js/787.8329be64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.6b901006.js"
+  ]
+}
