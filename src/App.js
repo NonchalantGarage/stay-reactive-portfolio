@@ -1,9 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Navigation';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Project from './components/Project';
+import About from './components/About';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
     <div className="">
         <Nav></Nav>
         <Header></Header>
-        <Project title='roger'></Project>
+        <About/>
+        <Project title='Project Title'></Project>
         <Footer></Footer>
 
     </div>
