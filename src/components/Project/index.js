@@ -1,10 +1,19 @@
 import React from 'react'
 
-function Project (props) {
+function Project (project) {
     return(
         <div>
-              <p>{props.title}</p>
-                {/* <a class ="image-hover" href="https://nonchalantgarage.github.io/run-buddy/ " target="_blank"> <img src="./assets/images/Run Buddy.png" alt="Run Buddy Screnshot"> </a> */}
+
+              <p>{project.description}</p>
+              <p>{project.title}</p>
+          <img
+            src={require(`../../assets/dinnerforyou.jpg`)}
+            alt={project.title}
+            className="img-thumbnail mx-1"
+            href="https://nonchalantgarage.github.io/run-buddy/"
+            key={project.title}
+          />
+
         </div>
     )
 

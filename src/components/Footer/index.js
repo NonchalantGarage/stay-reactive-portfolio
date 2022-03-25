@@ -3,7 +3,6 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <h2 id="contact-me">Let's collab</h2>
       <div className="contact-me">
        
         <h4>Contact Me</h4>

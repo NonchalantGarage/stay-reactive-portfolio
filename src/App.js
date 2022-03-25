@@ -15,7 +15,7 @@ function App() {
         <Nav></Nav>
         <Header></Header>
         <About/>
-        <Project title='Project Title'></Project>
+        <Project description = "Lorem Ipsum" title='Project Title'></Project>
         <Footer></Footer>
 
     </div>
