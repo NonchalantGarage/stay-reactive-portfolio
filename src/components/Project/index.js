@@ -2,7 +2,7 @@ import React from 'react'
 
 function Project (project) {
     return(
-        <div>
+        <React.Fragment>
 
               <p>{project.description}</p>
               <p>{project.title}</p>
@@ -14,7 +14,7 @@ function Project (project) {
             key={project.title}
           />
 
-        </div>
+        </React.Fragment>
     )
 
 }

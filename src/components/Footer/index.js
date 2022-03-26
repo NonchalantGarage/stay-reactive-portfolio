@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div>
+    <React.Fragment>
       <div className="contact-me">
        
         <h4>Contact Me</h4>
@@ -22,7 +22,7 @@ function Footer() {
           </div>
         </form>
       </div>
-    </div>
+    </React.Fragment>
   );
 }
 
