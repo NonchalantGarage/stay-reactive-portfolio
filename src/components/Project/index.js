@@ -1,6 +1,6 @@
 import React from "react";
 
-function Project(project) {
+function Project() {
   const projects = [
      {
       title: "lookmeup",
@@ -28,7 +28,7 @@ function Project(project) {
   return (
     <React.Fragment>
       {projects.map((project) => (
-        <div>
+        <div key = {project.name}>
            <p>{project.name}</p>
           <p>{project.description}</p>
           <img
@@ -36,7 +36,6 @@ function Project(project) {
             alt={project.title}
             className="img-thumbnail mx-1"
             href="https://nonchalantgarage.github.io/run-buddy/"
-            key={project.title}
           />
         </div>
       ))}

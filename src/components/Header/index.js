@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
 
-
-function Header () {
-    return(
-        <React.Fragment>
-
-        </React.Fragment>
-    )
-
+function Header(props) {
+  return (
+      <header>
+      <a className="navbar-brand" href="#">
+        Curtis Van Hong, CPA{" "}
+      </a>
+        {props.children}
+      </header>
+  );
 }
 
-export default Header
+export default Header;
