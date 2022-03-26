@@ -8,14 +8,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
-
+  
   
   return (
     <div className="">
         <Nav></Nav>
         <Header></Header>
         <About/>
-        <Project description = "Lorem Ipsum" title='Project Title'></Project>
+        <Project ></Project>
         <Footer></Footer>
 
     </div>
